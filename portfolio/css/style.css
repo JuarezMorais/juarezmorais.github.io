@@ -1,0 +1,97 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family:'Montserrat', sans-serif;
+    
+}
+.container-fluid{
+    background: url('../img/img-1.jpg') no-repeat;
+    background-size: cover;
+    height: 720px;
+    
+}
+.nav a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+}
+.nav {
+    padding-top: 2rem;
+    padding-right: 4rem;
+    
+}
+.nav li:hover{
+    background-color: white;
+    
+}
+.nav a:hover{
+    color: #4717f6;
+    font-weight: bold;
+}
+.avatar {
+    border-radius: 50%;
+    width: 300px;
+    margin: 7.5rem 0 0 10rem;
+    transition: right;
+    transition-property: initial;
+    transition-duration: 900;
+}
+.bio-text{
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.3rem;
+    margin: 9.5rem 8rem 0 0;
+    
+}
+.avatar-1{
+    float: left;
+    width: 40%;
+}
+.biografia{
+    float: right;
+    width: 60%;
+}
+i.material-icons{
+color: aliceblue;
+}
+@media (max-width: 767px) and (min-width: 0px){
+.nav ul li {
+    float: none;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+.nav {
+    padding-top: 0;
+    padding-right: 0;
+}
+.avatar-1{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    padding-top: 2.5rem;
+}
+.biografia{
+    float: none;
+    width: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.bio-text{
+    margin: 2rem auto 2rem auto;
+
+}
+.avatar{
+    float:none;
+    border-radius: 50%;
+    width: 250px;
+    margin: 0;
+    display: block;
+    
+}
+}
+
+
