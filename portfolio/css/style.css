@@ -3,11 +3,13 @@ html, body{
     padding: 0;
     font-family:'Montserrat', sans-serif;
     
+    
 }
 .container-fluid{
     background: url('../img/img-1.jpg') no-repeat;
     background-size: cover;
-    height: 720px;
+    height: 700px;
+    box-shadow: 0 0 15px 0;
     
 }
 .nav a{
@@ -15,6 +17,7 @@ html, body{
     text-decoration: none;
     color: white;
     font-size: 1.4rem;
+    font-weight: bold; 
 }
 .nav {
     padding-top: 2rem;
@@ -39,8 +42,8 @@ html, body{
 }
 .bio-text{
     color: white;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 1.3rem;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 4rem;
     margin: 9.5rem 8rem 0 0;
     
 }
@@ -52,8 +55,43 @@ html, body{
     float: right;
     width: 60%;
 }
-i.material-icons{
-color: aliceblue;
+#curriculo{
+    background: #111;  
+    height: 400px;
+}
+#skills{
+    background: #111;
+}
+#skills i{
+    font-size: 4rem;
+    border: 0.2px solid gray;
+    color: #4717f6;
+    height: 80px;
+    width: 80px;
+    display: flex;
+  align-items: center;
+  justify-content: center 
+}
+
+#contacts {
+    background: #111;
+    height: 200px;
+}
+h1{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 2rem;
+    color: white;
+}
+p{
+    color:whitesmoke;
+    font-size: 1.4rem;
+}
+h3{
+    color: grey;
+    
 }
 @media (max-width: 767px) and (min-width: 0px){
 .nav ul li {
@@ -92,6 +130,28 @@ color: aliceblue;
     display: block;
     
 }
+i.material-icons{
+    color: aliceblue;
+    margin: 1rem 0 1rem 0;
+    }
+    
+#curriculo{
+    padding-top: 1.5rem;  
+    height: 600px;
 }
+}
+@media (max-width: 2000px) and (min-width: 767px){
+    #skills{
+        padding: 0 10rem 0 10rem;
+}
+    #skills i{
+        box-sizing: border-box;
+        margin: 10px 10px 10px;
+    }
+    #skills div{
+        display: flex;
+  align-items: center;
+  justify-content: center 
+    }
 
-
+}
