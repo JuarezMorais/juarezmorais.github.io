@@ -2,7 +2,7 @@ html, body{
     margin: 0;
     padding: 0;
     font-family:'Montserrat', sans-serif;
-    
+    scroll-behavior: smooth;  
     
 }
 .container-fluid{
@@ -65,17 +65,18 @@ html, body{
 #skills i{
     font-size: 4rem;
     border: 0.2px solid gray;
+    box-shadow: 2px 2px #4717f6;
     color: #4717f6;
     height: 80px;
     width: 80px;
     display: flex;
   align-items: center;
-  justify-content: center 
+  justify-content: center
+ 
 }
-
 #contacts {
-    background: #111;
-    height: 200px;
+    background: #4717f6;
+    height: 250px;
 }
 h1{
     font-family: 'Source Code Pro', monospace;
@@ -90,7 +91,7 @@ p{
     font-size: 1.4rem;
 }
 h3{
-    color: grey;
+    color: white;
     
 }
 @media (max-width: 767px) and (min-width: 0px){
@@ -113,13 +114,14 @@ h3{
 }
 .biografia{
     float: none;
-    width: 15rem;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
 .bio-text{
-    margin: 2rem auto 2rem auto;
+    font-size: 1.5rem;
+    padding-left: 0;
 
 }
 .avatar{
@@ -138,6 +140,15 @@ i.material-icons{
 #curriculo{
     padding-top: 1.5rem;  
     height: 600px;
+    font-size: 0.1rem;
+}
+#skills i{
+    border: none;
+    box-shadow: none;
+    
+}
+#contacts {
+    height: 350px;
 }
 }
 @media (max-width: 2000px) and (min-width: 767px){
